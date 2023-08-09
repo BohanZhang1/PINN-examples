@@ -131,7 +131,7 @@ if(Flag_noise):# Add noise
 '''
 STEP 5: TRAIN THE MODEL
 '''
-epochs = 500
+epochs = 5000
 for epoch in range(epochs):
     epoch += 1
     # Convert numpy array to torch Variable
